@@ -19,7 +19,7 @@ for(var i = 0; i < sequence.length; i++) {
     console.log(sequence[i]);
 }
 
-// Write code that will add all of the values from 1-100 onto some variable sum and at the end console.log the result 1 + 2 + 3 + ... + 98 + 99 + 100. We should get back 5050 at the end.
+//4. Write code that will add all of the values from 1-100 onto some variable sum and at the end console.log the result 1 + 2 + 3 + ... + 98 + 99 + 100. We should get back 5050 at the end.
 
 var sum = 0;
 
@@ -27,3 +27,11 @@ for(var i = 1; i <= 100; i++) {
     sum += i;
 }
 console.log(sum);
+
+//5. Factorial Write code that will multiply all of the values from 1-12 onto some variable product and at the end console.log the result 1 * 2 * 3 * ... * 10 * 11 * 12. We should get back 479001600 at the end.
+
+var product = 1;
+for (var i = 1; i <= 12; i++){
+    product *= i;
+}
+console.log(product);
